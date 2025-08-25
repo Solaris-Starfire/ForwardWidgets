@@ -1,7 +1,7 @@
 {
   "title": "Danmu Widgets",
-  "description": "",
-  "icon": "https://github.com/huangxd-/ForwardWidgets/raw/main/icon.png",
+  "description": "弹幕合集",
+  "icon": "https://raw.githubusercontent.com/Solaris-Starfire/ForwardWidgets/main/icon/Forward.png",
   "widgets": [
     {
       "id": "forward.auto.danmu",
