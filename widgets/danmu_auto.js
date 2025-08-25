@@ -14,10 +14,10 @@
  */
 WidgetMetadata = {
   id: "forward.auto.danmu",
-  title: "自动链接弹幕",
+  title: "自动弹幕",
   version: "1.0.15",
   requiredVersion: "0.0.2",
-  description: "自动获取播放链接并从服务器获取弹幕",
+  description: "自动获取弹幕",
   author: "Solaris-Starfire",
   site: "https://github.com/Solaris-Starfire/ForwardWidgets",
   globalParams: [
