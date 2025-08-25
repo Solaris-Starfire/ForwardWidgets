@@ -4,6 +4,15 @@
   "icon": "https://raw.githubusercontent.com/Solaris-Starfire/ForwardWidgets/main/icon/Forward.png",
   "widgets": [
     {
+      "id": "forward.test.danmu",
+      "title": "获取弹幕",
+      "description": "获取弹幕",
+      "requiredVersion": "0.0.2",
+      "version": "1.0.0",
+      "author": "Solaris-Starfire",
+      "url": "https://raw.githubusercontent.com/Solaris-Starfire/ForwardWidgets/main/widgets/danmu.js"
+    },
+    {
       "id": "forward.auto.danmu",
       "title": "自动链接弹幕",
       "description": "自动获取播放链接并从服务器获取弹幕",
