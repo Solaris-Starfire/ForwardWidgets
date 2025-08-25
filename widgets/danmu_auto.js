@@ -15,7 +15,7 @@
 WidgetMetadata = {
   id: "forward.auto.danmu",
   title: "自动链接弹幕",
-  version: "1.0.14",
+  version: "1.0.15",
   requiredVersion: "0.0.2",
   description: "自动获取播放链接并从服务器获取弹幕",
   author: "Solaris-Starfire",
@@ -26,10 +26,6 @@ WidgetMetadata = {
       title: "自定义服务器",
       type: "input",
       placeholders: [
-        {
-          title: "localhost",
-          value: "http://127.0.0.1",
-        },
         {
           title: "lyz05",
           value: "https://fc.lyz05.cn",
@@ -140,93 +136,6 @@ WidgetMetadata = {
         {
             title: "关",
             value: "false",
-        },
-      ],
-    },
-    {
-      name: "debug",
-      title: "调试日志，是否开启前2分钟投放弹幕日志",
-      type: "enumeration",
-      value: "false",
-      enumOptions: [
-        {
-            title: "关",
-            value: "false",
-        },
-        {
-            title: "开",
-            value: "true",
-        },
-      ],
-    },
-    {
-      name: "danmu_api_1",
-      title: "danmu_api_1 (前面匹配不到的可以试试弹幕API，比如一些韩剧/美剧)",
-      type: "input",
-      placeholders: [
-        {
-          title: "示例",
-          value: "https://{domain}/api/{token}",
-        },
-      ],
-    },
-    {
-      name: "danmu_api_2",
-      title: "danmu_api_2 (前面匹配不到的可以试试弹幕API，比如一些韩剧/美剧)",
-      type: "input",
-      placeholders: [
-        {
-          title: "示例",
-          value: "https://{domain}/api/{token}",
-        },
-      ],
-    },
-    {
-      name: "danmu_api_3",
-      title: "danmu_api_3 (前面匹配不到的可以试试弹幕API，比如一些韩剧/美剧)",
-      type: "input",
-      placeholders: [
-        {
-          title: "示例",
-          value: "https://{domain}/api/{token}",
-        },
-      ],
-    },
-    {
-      name: "danmu_api_4",
-      title: "danmu_api_4 (前面匹配不到的可以试试弹幕API，比如一些韩剧/美剧)",
-      type: "input",
-      placeholders: [
-        {
-          title: "示例",
-          value: "https://{domain}/api/{token}",
-        },
-      ],
-    },
-    {
-      name: "danmu_api_5",
-      title: "danmu_api_5 (前面匹配不到的可以试试弹幕API，比如一些韩剧/美剧)",
-      type: "input",
-      placeholders: [
-        {
-          title: "示例",
-          value: "https://{domain}/api/{token}",
-        },
-      ],
-    },
-    {
-      name: "api_priority",
-      title: "弹幕API优先 (开启后准确性可能没有通过链接匹配的高)",
-      type: "enumeration",
-      value: "false",
-      enumOptions: [
-        {
-            title: "关",
-            value: "false",
-        },
-        {
-            title: "开",
-            value: "true",
         },
       ],
     },
