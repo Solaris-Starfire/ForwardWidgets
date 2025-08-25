@@ -14,10 +14,10 @@
  */
 WidgetMetadata = {
   id: "forward.playurl.danmu",
-  title: "手动链接弹幕",
-  version: "1.0.6",
+  title: "手动弹幕",
+  version: "1.0.7",
   requiredVersion: "0.0.2",
-  description: "从指定播放链接和服务器获取弹幕",
+  description: "手动获取弹幕",
   author: "Solaris-Starfire",
   site: "https://github.com/Solaris-Starfire/ForwardWidgets",
   globalParams: [
@@ -26,10 +26,6 @@ WidgetMetadata = {
       title: "自定义服务器",
       type: "input",
       placeholders: [
-        {
-          title: "localhost",
-          value: "http://127.0.0.1",
-        },
         {
           title: "lyz05",
           value: "https://fc.lyz05.cn",
