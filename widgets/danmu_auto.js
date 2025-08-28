@@ -15,7 +15,7 @@
 WidgetMetadata = {
   id: "forward.auto.danmu",
   title: "自动弹幕",
-  version: "1.0.15",
+  version: "1.1.0",
   requiredVersion: "0.0.2",
   description: "自动获取弹幕",
   author: "Solaris-Starfire",
@@ -352,6 +352,24 @@ function md5(message) {
   }
 
   return (wordToHex(a) + wordToHex(b) + wordToHex(c) + wordToHex(d)).toLowerCase();
+}
+
+function escapeXmlText(str) {
+  return str.replace(/[<>&"']/g, function (c) {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '"': return '&quot;';
+      case "'": return '&apos;';
+    }
+  });
+}
+
+function fixDTagContent(xmlStr) {
+  return xmlStr.replace(/(<d [^>]*>)([\s\S]*?)(<\/d>)/g, function (match, startTag, textContent, endTag) {
+    return startTag + escapeXmlText(textContent) + endTag;
+  });
 }
 
 function buildQueryString(params) {
