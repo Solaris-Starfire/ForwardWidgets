@@ -27,6 +27,10 @@ WidgetMetadata = {
       type: "input",
       placeholders: [
         {
+          title: "localhost",
+          value: "http://127.0.0.1",
+        },        
+        {
           title: "lyz05",
           value: "https://fc.lyz05.cn",
         },
