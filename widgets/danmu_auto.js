@@ -15,7 +15,7 @@
 WidgetMetadata = {
   id: "forward.auto.danmu",
   title: "自动弹幕",
-  version: "1.1.0",
+  version: "1.0.22",
   requiredVersion: "0.0.2",
   description: "自动获取弹幕",
   author: "Solaris-Starfire",
